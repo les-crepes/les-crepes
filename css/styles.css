@@ -11466,11 +11466,9 @@ header.masthead h1, header.masthead .h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 90%;
+  height: 85vh;
   width: 400px;
-  position: absolute;
   bottom: 0;
-  text-align: center;
   transition: opacity 0.25s ease;
 }
 
@@ -11478,5 +11476,10 @@ header.masthead h1, header.masthead .h1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 200px;
+}
+
+@media (min-width: 1200px) {
+  .main-title{
+    margin-top: 200px;
+  }
 }
