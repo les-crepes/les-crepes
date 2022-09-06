@@ -11484,7 +11484,7 @@ header.masthead h1, header.masthead .h1 {
 
 @media (min-width: 1200px) {
   .main-title{
-    margin-top: 200px;
+    margin-top: 0px;
   }
 }
 
