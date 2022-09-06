@@ -11327,6 +11327,10 @@ hr.divider-light {
   background-color: #fff;
 }
 
+hr.divider-dark {
+  background-color: #000;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
@@ -11481,5 +11485,22 @@ header.masthead h1, header.masthead .h1 {
 @media (min-width: 1200px) {
   .main-title{
     margin-top: 200px;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
   }
 }
